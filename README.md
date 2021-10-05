@@ -6,4 +6,10 @@ Todo Application using PERN stack
 - user can delete an existing todo
 - user can edit an existing todo
 - user can switch the theme between Dark/Light
--
+
+# Technology
+- REACT
+- Node Js
+- Express
+- Postgre SQL
+- Bootstrap
