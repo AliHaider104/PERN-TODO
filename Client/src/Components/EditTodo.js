@@ -25,7 +25,7 @@ const EditTodo = ({ todo }) => {
     <Fragment>
       <button
         type="button"
-        class="btn btn-warning"
+        class="btn btn-outline-warning"
         data-toggle="modal"
         data-target={`#id${todo.todo_id}`}
       >
@@ -56,13 +56,17 @@ const EditTodo = ({ todo }) => {
             <div class="modal-footer">
               <button
                 type="button"
-                class="btn btn-warning"
+                class="btn btn-outline-warning"
                 data-dismiss="modal"
                 onClick={(e) => updateDescription(e)}
               >
                 Edit
               </button>
-              <button type="button" class="btn btn-danger" data-dismiss="modal">
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                data-dismiss="modal"
+              >
                 Close
               </button>
             </div>

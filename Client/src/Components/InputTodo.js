@@ -19,7 +19,12 @@ const InputTodo = () => {
 
   return (
     <Fragment>
-      <h1 className="text-center mt-5">PERN TODO LIST</h1>
+      <h1
+        className="text-center mt-5"
+        style={{ color: "#DC143C", border: "2px solid #DC143C" }}
+      >
+        PERN TODO LIST
+      </h1>
       <form className="d-flex mt-5" onSubmit={onSubmitForm}>
         <input
           type="text"
